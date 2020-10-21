@@ -1,5 +1,9 @@
 from lab1_functions import draw_shape, check_num, check_magnitude
 from math import sqrt
+    
+# Task 0: Print your name and honor pledge
+print("Ada Zhang")
+print("I pledge my honor that I have abided by the Stevens Honors System")
 
 # Task 1: Mathematical operations ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Change the (+) operators to make 'num' equal to 1
@@ -35,15 +39,26 @@ draw_shape([
 draw_shape([
     (-200,0),
     (200,0),
-    
+    (0, (200*sqrt(2))),
+    (-200, 0),
 ])
-
+           
 # 3.2: Square
 draw_shape([
-    
+    (100,-100),
+    (-100,-100),
+    (-100,100),
+    (100,100),
+    (100,-100),
 ])
 
 # 3.3: Any shape with 5+ vertices
 draw_shape([
-    
+    (0,80),
+    (60,50),
+    (60,-10),
+    (-20,-40),
+    (-50, 30),
+    (0,80),
 ])
+
